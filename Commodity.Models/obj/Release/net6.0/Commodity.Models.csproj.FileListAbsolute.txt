@@ -1,0 +1,12 @@
+D:\SUPERAPP\2-Microservice-Projects\SuperApp\Commodity\Commodity.Models\bin\Release\net6.0\Commodity.Models.deps.json
+D:\SUPERAPP\2-Microservice-Projects\SuperApp\Commodity\Commodity.Models\bin\Release\net6.0\Commodity.Models.dll
+D:\SUPERAPP\2-Microservice-Projects\SuperApp\Commodity\Commodity.Models\bin\Release\net6.0\Commodity.Models.pdb
+D:\SUPERAPP\2-Microservice-Projects\SuperApp\Commodity\Commodity.Models\obj\Release\net6.0\Commodity.Models.csproj.AssemblyReference.cache
+D:\SUPERAPP\2-Microservice-Projects\SuperApp\Commodity\Commodity.Models\obj\Release\net6.0\Commodity.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\SUPERAPP\2-Microservice-Projects\SuperApp\Commodity\Commodity.Models\obj\Release\net6.0\Commodity.Models.AssemblyInfoInputs.cache
+D:\SUPERAPP\2-Microservice-Projects\SuperApp\Commodity\Commodity.Models\obj\Release\net6.0\Commodity.Models.AssemblyInfo.cs
+D:\SUPERAPP\2-Microservice-Projects\SuperApp\Commodity\Commodity.Models\obj\Release\net6.0\Commodity.Models.csproj.CoreCompileInputs.cache
+D:\SUPERAPP\2-Microservice-Projects\SuperApp\Commodity\Commodity.Models\obj\Release\net6.0\Commodity.Models.dll
+D:\SUPERAPP\2-Microservice-Projects\SuperApp\Commodity\Commodity.Models\obj\Release\net6.0\refint\Commodity.Models.dll
+D:\SUPERAPP\2-Microservice-Projects\SuperApp\Commodity\Commodity.Models\obj\Release\net6.0\Commodity.Models.pdb
+D:\SUPERAPP\2-Microservice-Projects\SuperApp\Commodity\Commodity.Models\obj\Release\net6.0\ref\Commodity.Models.dll

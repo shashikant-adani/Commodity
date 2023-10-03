@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "gdVAjU4seAzPdQ+pSptM6mdc+dGysZjOsebSxFbDJQM=",
+  "Source": "Commodity.API",
+  "BasePath": "_content/Commodity.API",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
