@@ -26,7 +26,7 @@ namespace Commodity.Services
             services.AddScoped<DbContext, AppDbContext>();
 
             //Repositories
-            services.AddScoped<IRepository<CropPrice>, Repository<CropPrice>>();
+            services.AddScoped<IRepository<_2dcropPrice>, Repository<_2dcropPrice>>();
             services.AddScoped<IRepository<CropDimension>, Repository<CropDimension>>();
             services.AddScoped<IRepository<StateDimension>, Repository<StateDimension>>();
             services.AddScoped<IMandiRepository,MandiRepository>();
@@ -34,7 +34,7 @@ namespace Commodity.Services
             services.AddScoped<IStateRepository,StateRepository>();
 
             //Services
-            services.AddScoped<IService<CropPrice>, Service<CropPrice>>();
+            services.AddScoped<IService<_2dcropPrice>, Service<_2dcropPrice>>();
             services.AddScoped<IService<CropDimension>, Service<CropDimension>>();
             services.AddScoped<IService<StateDimension>, Service<StateDimension>>();
             services.AddScoped<ICommodityService, CommodityService>();

@@ -40,7 +40,7 @@ namespace Commodity.Services.Implementations
                             IEnumerable<CropDimension> cropDimensionsList = await _baseLogic.GetAllCropDimension();
                            
 
-                            IList<CropPrice> cropPricesList = new List<CropPrice>();
+                            IList<_2dcropPrice> cropPricesList = new List<_2dcropPrice>();
 
                             if(retailWorksheet.Name == sheetName.Retail.ToString())
                             {
@@ -55,12 +55,12 @@ namespace Commodity.Services.Implementations
                                         var price = retailWorksheet.Cells[row, col]!.Value?.ToString();
                                         if (!string.IsNullOrEmpty(price))
                                         {
-                                            CropPrice cropPrices = new CropPrice{  Retail = price, CropDimensionId = cropDimensionId, StateDimensionId = stateDimensionId, Date = date };
+                                            _2dcropPrice cropPrices = new _2dcropPrice {  Retail = price, CropDimensionId = cropDimensionId, StateDimensionId = stateDimensionId, Date = date };
                                             cropPricesList.Add(cropPrices);
                                         }
                                         else
                                         {
-                                            CropPrice cropPrices = new CropPrice { Retail = "NA", CropDimensionId = cropDimensionId, StateDimensionId = stateDimensionId, Date = date };
+                                            _2dcropPrice cropPrices = new _2dcropPrice { Retail = "NA", CropDimensionId = cropDimensionId, StateDimensionId = stateDimensionId, Date = date };
                                             cropPricesList.Add(cropPrices);
                                         }
                                         
@@ -82,12 +82,12 @@ namespace Commodity.Services.Implementations
                                         var price = wholeSaleWorksheet.Cells[row,col].Value?.ToString();
                                         if(!string.IsNullOrEmpty(price))
                                         {
-                                            CropPrice cropPrices = new CropPrice { Wholesale = price, CropDimensionId = cropDimensionId, StateDimensionId = stateDimensionId, Date = date };
+                                            _2dcropPrice cropPrices = new _2dcropPrice { Wholesale = price, CropDimensionId = cropDimensionId, StateDimensionId = stateDimensionId, Date = date };
                                             cropPricesList.Add(cropPrices);
                                         }
                                         else
                                         {
-                                            CropPrice cropPrices = new CropPrice { Wholesale = "NA", CropDimensionId = cropDimensionId, StateDimensionId = stateDimensionId, Date = date };
+                                            _2dcropPrice cropPrices = new _2dcropPrice { Wholesale = "NA", CropDimensionId = cropDimensionId, StateDimensionId = stateDimensionId, Date = date };
                                             cropPricesList.Add(cropPrices);
                                         }
                                     }

@@ -13,5 +13,5 @@ public partial class StateDimension
 
     public string ShortCode { get; set; }
 
-    public virtual ICollection<CropPrice> CropPrices { get; set; } = new List<CropPrice>();
+    public virtual ICollection<_2dcropPrice> _2dcropPrices { get; set; } = new List<_2dcropPrice>();
 }

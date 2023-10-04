@@ -16,11 +16,11 @@
    "T4TemplatePath": null,
    "Tables": [
       {
-         "Name": "[dbo].[CropDimensions]",
+         "Name": "[dbo].[2DCropPrices]",
          "ObjectType": 0
       },
       {
-         "Name": "[dbo].[CropPrices]",
+         "Name": "[dbo].[CropDimensions]",
          "ObjectType": 0
       },
       {

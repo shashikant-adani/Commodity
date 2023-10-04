@@ -6,17 +6,17 @@ using Commodity.Repositories.Interfaces;
 
 namespace Commodity.Repositories.Implementation
 {
-    public class MandiRepository : Repository<CropPrice>, IMandiRepository
+    public class MandiRepository : Repository<_2dcropPrice>, IMandiRepository
     {
         public MandiRepository(AppDbContext db) : base(db)
         {
         }
 
-       public async Task<bool> AddAllCropPrice(IList<CropPrice> cropPrice)
+       public async Task<bool> AddAllCropPrice(IList<_2dcropPrice> cropPrice)
         {
             try
             {
-               await _db.CropPrices.AddRangeAsync(cropPrice);
+               await _db._2dcropPrices.AddRangeAsync(cropPrice);
                await _db.SaveChangesAsync();
                 return true;
 

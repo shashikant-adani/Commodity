@@ -17,15 +17,15 @@ public partial class AppDbContext : DbContext
 
     public virtual DbSet<CropDimension> CropDimensions { get; set; }
 
-    public virtual DbSet<CropPrice> CropPrices { get; set; }
-
     public virtual DbSet<StateDimension> StateDimensions { get; set; }
+
+    public virtual DbSet<_2dcropPrice> _2dcropPrices { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
             modelBuilder.ApplyConfiguration(new Configurations.CropDimensionConfiguration());
-            modelBuilder.ApplyConfiguration(new Configurations.CropPriceConfiguration());
             modelBuilder.ApplyConfiguration(new Configurations.StateDimensionConfiguration());
+            modelBuilder.ApplyConfiguration(new Configurations._2dcropPriceConfiguration());
 
         OnModelCreatingGeneratedProcedures(modelBuilder);
         OnModelCreatingPartial(modelBuilder);
