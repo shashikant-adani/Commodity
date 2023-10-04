@@ -12,7 +12,7 @@ namespace Commodity.Core.Configurations
     {
         public void Configure(EntityTypeBuilder<CropDimension> entity)
         {
-            entity.HasKey(e => e.Id).HasName("crop_pkey");
+            entity.HasKey(e => e.Id).HasName("cropD_pkey");
 
             entity.Property(e => e.AdvisoryImg).HasColumnName("advisory_img");
             entity.Property(e => e.CropName).HasColumnName("crop_name");
