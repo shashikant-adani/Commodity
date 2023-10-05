@@ -78,11 +78,11 @@ namespace Commodity.API.Controllers
             }
         }
 
-        [HttpPost("GetCommodity")]
+        [HttpGet("GetCommodity")]
         [ProducesResponseType(typeof(string), (int)HttpStatusCode.OK)]
         [ProducesResponseType(typeof(string), (int)HttpStatusCode.BadRequest)]
         [ProducesResponseType(typeof(string), StatusCodes.Status500InternalServerError)]
-        public async Task<IActionResult> GetCommoditybyStateDate(GetCommodityModel model)
+        public async Task<IActionResult> GetCommoditybyStateDate([FromQuery] GetCommodityModel model)
         {
             try
             {
